@@ -1,0 +1,15 @@
+.settings__setting {
+  padding: 20px 0px;
+  border-bottom: 0.5px solid rgba(0, 0, 0, 0.1);
+  font-size: 18px;
+  font-weight: 400;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.settings__setting-column i {
+  margin-right: 15px;
+}
+.settings__setting-column:last-child {
+  color: var(--text-grey);
+}

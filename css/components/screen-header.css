@@ -1,0 +1,49 @@
+.screen-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: var(--horizontal-space);
+  padding-top: 45px;
+  margin-bottom: 10px;
+}
+.screen-header__title {
+  font-size: 32px;
+  font-weight: 600;
+}
+.screen-header__icons span {
+  margin-left: 20px;
+}
+.screen-header__icons:last-child {
+  position: relative;
+}
+.screen-header__icons .notify {
+  position: absolute;
+  width: 5px;
+  height: 5px;
+  background-color: tomato;
+  border-radius: 50%;
+  top: -8px;
+  right: -8px;
+}
+
+.find-fixed {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  box-sizing: border-box;
+  background-color: white;
+  z-index: 1;
+}
+
+@keyframes rotateCog {
+  from {
+    transform: none;
+  }
+  to {
+    transform: rotateZ(360deg);
+  }
+}
+
+.screen-header__icons .fa-cog:hover {
+  animation: rotateCog 2s linear infinite;
+}
