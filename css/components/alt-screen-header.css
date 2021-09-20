@@ -30,3 +30,6 @@
 .alt-header__column:last-child i:last-child {
   margin-left: 12px;
 }
+.back-to-chats {
+  -webkit-tap-highlight-color: transparent;
+}
