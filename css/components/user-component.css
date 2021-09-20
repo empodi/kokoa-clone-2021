@@ -50,3 +50,6 @@
   display: block;
   margin-bottom: 10px;
 }
+.chatroom__link {
+  -webkit-tap-highlight-color: transparent;
+}
