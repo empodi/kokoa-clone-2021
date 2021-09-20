@@ -27,3 +27,6 @@ body {
 .main-screen {
   padding: 0px var(--horizontal-space);
 }
+.login__btn {
+  -webkit-tap-highlight-color: transparent;
+}
